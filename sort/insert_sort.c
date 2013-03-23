@@ -1,18 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "array.h"
 
 #define N 10
 
-void print_array(int *, int);
 void insert_sort(int *, int, int);
 
 int main(int argc, char *argv[])
 {
 	int i, a[N];
 	
-	srand(time(NULL));
-	for (i = 0; i < N; i++)
-		a[i] = rand()%100;
+	init_array(a, N);
 	print_array(a, N);
 	insert_sort(a, 0, N-1);
 	print_array(a, N);
@@ -33,13 +29,4 @@ void insert_sort(int *a, int start, int final)
 		}
 		a[j+1] = tmp;
 	}
-}
-
-void print_array(int *a, int len)
-{
-	int i;
-
-	for (i = 0; i < len; i++)
-		printf("%d\t", a[i]);
-	printf("\n");
 }
