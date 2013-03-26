@@ -1,4 +1,4 @@
 algorithms
 ==========
 
-common used algorithms and some exercise
+常用算法和一些算法题目
