@@ -1,0 +1,9 @@
+贪心算法换硬币问题，用最少的硬币数目换取一定数目的钱
+
+运行： 
+	./a.out 99
+结果：
+	value 20 , nums :  4
+	value 10 , nums :  1
+	value  5 , nums :  1
+	value  2 , nums :  2
