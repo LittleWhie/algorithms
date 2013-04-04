@@ -1,7 +1,7 @@
 #include <ctype.h>
 #include <stdio.h>
 
-#define T 100
+#define T 1000
 #define LINE_MAX 1024
 
 int min_minute(int, int, int);
